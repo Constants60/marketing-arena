@@ -1,0 +1,23 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  
+  /* maketing content */
+ 
+#Home .child-section {
+    scroll-snap-align: start;
+}
+#ma-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    padding-bottom: 182px;
+}
