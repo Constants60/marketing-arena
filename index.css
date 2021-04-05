@@ -1,17 +1,92 @@
-.dropdown:hover>.dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-      pointer-events: none;
-  }
-  
-  /* maketing content */
- 
-#Home .child-section {
-    scroll-snap-align: start;
+:root{
+  --primary-color: #FFCF00;
 }
+
+
+html{
+  font-size: 62.5%; /* 10px ... mac dinh la 16px*/
+  line-height: 1.6rem; /*16 px*/
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+  /* navigation */
+.navbar.navbar-light.bg-light{
+  padding: 0;
+  border: 1px solid #bdbdbd;
+}
+
+.navbar-toggler{
+  margin-left: 40px;
+  transform: scale(2);
+  background-color: var(--primary-color);
+  opacity: .8;
+}
+.container-fluid{
+  padding: 0;
+}
+
+.bg-light{
+  background-color: #FFFFFF!important;
+}
+
+.btn.btn-light{
+  font-size: 14px;
+  font-weight: 750;
+  border-radius: 20px;
+  margin-left: 25px;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #000000;
+
+}
+
+.btn.btn-light:hover{
+  background-color: var(--primary-color);
+  color: #f5f5f5;
+}
+
+.logo-container{
+  background-color: #F7F7F7;
+  border: 1px solid #bdbdbd;
+  padding: 2px 20px ;
+ 
+}
+  .logo-container img{
+    width: 50px;
+  }
+
+  /* image slide */
+ .container-fluid .img-slide{
+   width: 100%;
+ }
+
+ /* about me */
+ .column1 img{
+   width: 80%;
+ }
+ .aboutme-header{
+   width: 380px;
+   margin-bottom: 45px;
+   margin-top: 125px;
+ }
+
+ .column2{
+   font-size: 1.4rem;
+ }
+ .text-span{
+  font-weight: bold;
+}
+  /* maketing content */
+  .child-section{
+    margin-top: 150px;
+     font-size: 1.4rem;
+  }
+
 #ma-section {
     display: flex;
     justify-content: center;
@@ -21,3 +96,27 @@
     margin-top: 10px;
     padding-bottom: 182px;
 }
+#img1{
+  width: 374px;
+}
+
+#img2{
+  width: 360px;
+}
+
+.container-img img{
+    transform: scale(0.8); 
+}
+
+.thelevongthi{
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+/* rounds container */
+.rounds-container{
+ 
+  margin: 0 auto;
+}
+

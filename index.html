@@ -10,66 +10,184 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  
 </head>
 <body>
+
+
     <!-- navigation -->
-  <div class="navbar navbar-expand-md navbar-light bg-light sticky-top" >
-      <div class="container-fluid" >
-        <!-- <div class="navbar-brand"></div> -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarResponsive">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-      </div>
-      <div class="collapse navbar-collapse " id="NavbarResponsive">
-          <ul class="navbar-nav ml-auto" style="width:1000px;">
-              <li class="nav-item active">  <a href="#"class="nav-link"><button class="btn btn-primary">TRANG CHỦ</button></a></li>
-              <li class="nav-item ">  <a href="#"class="nav-link "><button class="btn btn-primary"> VỀ CHÚNG TÔI</button></a></li>
-              <li class="nav-item ">
-                <a href="#"class="nav-link dropdown">
-                        <button class="btn btn-primary " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> MARKETING ARENA 2020</button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a href="#" class="dropdown-item" >Thể lệ vòng thi</a>
-                            <a href="#" class="dropdown-item" >Cơ cấu vòng thi</a>
-                            <a href="#" class="dropdown-item" >Cơ cấu giải thưởng</a>
-                            <a href="#" class="dropdown-item" >Lưu ý dành cho thí sinh</a>
-                        </div>                 
-                </a>
-            </li>
-              <li class="nav-item ">  <a href="#"class="nav-link"><button class="btn btn-primary"> ĐĂNG KÝ THAM GIA</button></a></li>
-              <li class="nav-item ">  <a href="#"class="nav-link"><button class="btn btn-primary"> SỰ KIỆN</button></a></li>
-              <li class="nav-item ">  <a href="#"class="nav-link"><button class="btn btn-primary">ĐỐI TÁC</button></a></li>
-              <li class="nav-item ">  <a href="#"class="nav-link"><button class="btn btn-primary">LIÊN HỆ</button></a></li>
-          </ul>
-         
-      </div>
-       <div class="logo-container">
-              <img src="./img/logo.png" alt="">
-        </div>
-  </div>
+  <div class="navbar navbar-expand-md navbar-light bg-light sticky-top "  >
+    
+    <div class="container-fluid">
+            <!-- <div class="navbar-brand"></div> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>   
+        <div class="logo-container">
+            <img src="./img/logo.png" alt="" class="logo">
+        </div>  
+        <div class="collapse navbar-collapse " id="NavbarResponsive">
+            <ul class="navbar-nav ml-auto" style="width:1000px;">
+                <li class="nav-item ">  <a href="#"class="nav-link btn btn-light">TRANG CHỦ</a></li>
+                <li class="nav-item ">  <a href="#"class="nav-link btn btn-light"> VỀ CHÚNG TÔI</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#"class="nav-link  btn btn-light" data-bs-toggle="dropdown">
+                            
+                            MARKETING ARENA 2020
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item" >Thể lệ vòng thi</a></li>
+                                <li><a href="#" class="dropdown-item" >Cơ cấu vòng thi</a></li>
+                                <li><a href="#" class="dropdown-item" >Cơ cấu giải thưởng</a></li>
+                                <li><a href="#" class="dropdown-item" >Lưu ý dành cho thí sinh</a></li>
+                            </ul>                 
+                    </a>
+                </li>
+                <li class="nav-item ">  <a href="#"class="nav-link btn btn-light"> ĐĂNG KÝ THAM GIA</a></li>
+                <li class="nav-item ">  <a href="#"class="nav-link btn btn-light"> SỰ KIỆN</a></li>
+                <li class="nav-item ">  <a href="#"class="nav-link btn btn-light">ĐỐI TÁC</a></li>
+                <li class="nav-item ">  <a href="#"class="nav-link btn btn-light">LIÊN HỆ</a></li>
+            </ul>
+        </div> 
+    </div>
+</div>
     <!--   IMG slide  -->
     <div class="container-fluid">
-       <img src="./img/home.jpg" alt="">
+       <img src="./img/home.jpg" alt="" class="img-slide">
     </div>
 
     <!--About me  -->
-    <div class="container-fluid padding">
+    <div class="container padding">
         <div class="row padding">
-            <div class="col-lg-6">
-                <img src="./img/aboutme.png" alt="" class="img-fluid">
+            <div class="col-lg-6 column1">
+                <img src="./img/aboutme.png" alt="" class="img-fluid ">
             </div>
-            <div class="col-md-12 col-lg-6">
-                <img src="./img/aboutme-header.png" alt="">
-                <p>Lòng hiếu kì chính là niềm cảm hứng vô tận của mỗi người trong hành trình khám phá những điều bí ẩn. Một câu hỏi lớn được đặt ra, khơi dậy sự tò mò của các bạn trẻ trong việc tìm kiếm đáp án chính xác - MARKETING ARENA 2020 đã chính thức quay trở lại, tiếp nối chặng đường thành công của 4 mùa trước. Với thông điệp "Who Wonder Do Wonders", cuộc thi năm nay chính là sân chơi cho các Marketers dám biến suy nghĩ thành hành động , thỏa mãn sự tò mò bằng cách dấn mình vào hành trình giải mã bản thân và trau dồi những giá trị đáng quý.
+            <div class="col-md-12 col-lg-6 column2"> 
+                <img src="./img/aboutme-header.png" alt="" class="aboutme-header ">
+                <p><span class="text-span">Lòng hiếu kì</span> chính là niềm cảm hứng vô tận của mỗi người trong hành trình khám phá những điều bí ẩn. Một câu hỏi lớn được đặt ra, khơi dậy sự tò mò của các bạn trẻ trong việc tìm kiếm đáp án chính xác - <span style="color: var(--primary-color)  ;" class="text-span">MARKETING ARENA 2020</span> đã chính thức quay trở lại, tiếp nối chặng đường thành công của 4 mùa trước. Với thông điệp <span class="text-span">"Who Wonder Do Wonders"</span>, cuộc thi năm nay chính là sân chơi cho các Marketers dám biến suy nghĩ thành hành động , thỏa mãn sự tò mò bằng cách dấn mình vào hành trình giải mã bản thân và trau dồi những giá trị đáng quý.
                 </br>
-                    Đặc biệt, mùa thi năm nay còn chứng kiến sự thay đổi mới mẻ trong đề thi và thể lệ các vòng. Lần đầu tiên, MARKETING ARENA có đến 02 đề thi về hai chuyên môn riêng biệt trong lĩnh vực Marketing, bao gồm: xây dựng chiến dịch truyền thông tích hợp nhằm giải quyết bài toán của thương hiệu và thiết lập kế hoạch phát triển sản phẩm mới để mở rộng phân khúc thị trường của công ty.</p>
+                    Đặc biệt, mùa thi năm nay còn chứng kiến sự thay đổi mới mẻ trong đề thi và thể lệ các vòng. Lần đầu tiên, <span class="text-span">MARKETING ARENA</span> có đến <span class="text-span"> 02 đề thi</span> về hai <span class="text-span">chuyên môn riêng biệt</span> trong lĩnh vực Marketing, bao gồm: xây dựng chiến dịch truyền thông tích hợp nhằm giải quyết bài toán của thương hiệu và thiết lập kế hoạch phát triển sản phẩm mới để mở rộng phân khúc thị trường của công ty.</p>
+            
             </div>
         </div>
     </div>
     <!-- maketing content -->
     <section class="child-section" id="ma-section">
-        <div class="container-fluid">
+        <div class="container-fluid padding">
+            <div class="text-center padding">
+                <img src="./img/ma-arena-2020.png" alt="" id="img1"> <br>
+                <img src="./img/thelevongthi.png" alt="" id="img2">
+                <div class="thelevongthi text-center">
+                    <p >Cuộc thi <span class="text-span" style="color: var(--primary-color)  ;">MARKETING ARENA 2020</span> sẽ chính thức khởi động từ ngày <span class="text-span">17.08.2020</span> và kết thúc vào ngày <span class="text-span">27.09.2020</span>. Các đội thi sẽ được thử thách qua <span class="text-span">03 chặng hành trình</span> chính với <span class="text-span">02 sự lựa chọn.</span> </p>
+                    <p class="font-italic"><span class="text-span">Lưu ý: 20 đội</span> đăng ký dự thi <span class="text-span">sớm nhất</span> sẽ được quyền <span class="text-span">tự do lựa chọn đề</span>, các đội còn lại sẽ được BTC chỉ định đề thi. </p>
+                </div>
+            </div>
+            <div class="container padding">
+                <div class="container-img  text-center">
+                    <img src="./img/marketing-contentpng.png" alt="" id="img3 ">
+                    
+               </div>
+                <div class="rounds-container text-center">
+                    <!-- round 1 -->
+                    <div class="round-container row ">
+                        <div class="datetime-container col-12">
+                            <span class="datetime ">20.08</span>
+                            <img src="./img/datetime.svg" alt="">
+                            <span class="datetime">30.08</span>
+                        </div>
+                        <div class="yellow-full-round col-12"> 
+                            <p class="title">Round 1: THE CHAOS</p>
+                            <p class="subtitle">Data Analysis</p>
+                        </div>
+                        <p class="datetime col-12">23.08</p>
+                        <div class="white-full-round col-12">
+                            <p class="title">Information Day</p>
+                        </div>
+                        <p class="text-container col-12">Chọn ra Top 10 xuất sắc nhất của mỗi đề .</p>
+                    </div>
+                    <img src="./img/circle.png" alt="" class="">
+                    <!-- round 2 -->
+                    <div class="round-container row">
+                      <div class="col-5">
+                          <div class="yellow-round">
+                              <p class="title">Round 2: THE COLOSSEUM</p>
+                              <p class="subtitle">IMC Plan</p>
+                              <p class="subtitle">(Kế hoạch Marketing truyền thông tích hợp)</p>
+                          </div>
+                        <p class="datetime">7:00 AM 06.09</p>
+                        <div class="white-round">
+                            <p class="title"> Training Sesssion:</p>
+                            <p class="title">IMC Plan</p>
+                        </div>
+                        <p class="font-italic">Chọn ra đội xuất sắc nhất vào thẳng vòng chung kết</p>
+
+                      </div>
+                      <div class="col-2">
+                        <div class="datetime-container">
+                            <span class="datetime">20.08</span>
+                            <img src="./img/datetime.svg" alt="">
+                            <span class="datetime">30.08</span>
+                        </div>
+                      </div>
+                      <div class="col-5">
+                        <div class="yellow-round">
+                            <p class="title">Round 2: THE COLOSSEUM</p>
+                            <p class="subtitle">IMC Plan</p>
+                            <p class="subtitle">(Kế hoạch Marketing truyền thông tích hợp)</p>
+                        </div>
+                      <p class="datetime">7:00 AM 06.09</p>
+                      <div class="white-round">
+                          <p class="title"> Training Sesssion:</p>
+                          <p class="title">IMC Plan</p>
+                      </div>
+                      <p class="font-italic">Chọn ra đội xuất sắc nhất vào thẳng vòng chung kết</p>
+                      </div>
+                    </div>
+                    <img src="./img/circle.png" alt="" class="">
+                    <div class="datetime-container">
+                        <span class="datetime">14.09</span>
+                        <img src="./img/datetime.svg" alt="">
+                        <span class="datetime">18.09</span>
+                    </div>
+                    <!-- round 3 -->
+                    <div class="round-container text-center ">
+                        <div class="yellow-full-round "> 
+                            <p class="title">THE SECOND CHANCE</p>
+                            <p class="subtitle">Cả 20 đội làm Storyboard cho Viral Video/TVC</p>
+                        </div>
+                        <div class="">
+                        <p class="datetime " >7:00 PM 14.09</p>
+                        </div>
+                        <div class="white-full-round ">
+                            <p class="title">Training Creative</p>
+                        </div>
+                        <p class="font-italic">Chọn thêm Top 02 trong Top 09 còn lại của mỗi đề vào Vòng chung kết.<br>
+                            (*)Cách tính điểm cho top 09 còn lại của mỗi đề:<br>
+                            - Điểm từ Vòng 02 chiếm 60% điểm tổng kết vào chung cuộc.<br>
+                            - Điểm từ Vòng Second Chance chiếm 40% tổng điểm vào chung cuộc
+                        </p>
+                        <img src="./img/circle.png" alt="" class="">
+                        <div class="datetime-container">
+                            <span class="datetime">14.09</span>
+                            <img src="./img/datetime.svg" alt="">
+                            <span class="datetime">18.09</span>
+                        </div>
+                        <div class="yellow-full-round col-12"> 
+                            <p class="title">Round 03: THE WONDER</p>
+                            <p class="subtitle">Top 6 hoàn thành Plan và Execution Idea theo hướng dẫn của Mentor</p>
+                        </div>
+                    </div>
+                    <!-- round 4 -->
+                    <div class="red-full-round "> 
+                        <p class="title">Gala Night</p>
+                    </div>
+                    <p class="font-italic">Đêm chung kết vinh danh những nhà vô địch.</p>
+
+                </div>
+            </div>
             
         </div>
     </section>
+
 </body>
 </html>
