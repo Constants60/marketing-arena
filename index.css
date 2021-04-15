@@ -21,15 +21,18 @@ html{
   border-radius: 15px;
   font-weight: 600;
   margin-right: 20px;
-  padding: 3px 6px;
+  padding: 3px 10px;
+  background-color: #fff!important;
+ 
 }
 .navbar-light .navbar-nav .nav-link:hover{
-  color: #fff;
-  background-color: var(--primary-color);
+  color: #fff!important;
+  background-color: var(--primary-color)!important;
 }
 
 .navbar-expand-md>.container-fluid{
   justify-content: flex-end;
+  background-color: #fff;
 }
 .navbar-toggler{
   margin-left: 40px;
@@ -104,9 +107,7 @@ div#navbarDropdownPortfolio{
     width: 100%;
     margin: 0;
   }
-  .nav-add{
-    
-  }
+  
   
 }
 
@@ -380,6 +381,169 @@ div#navbarDropdownPortfolio{
   width: 70%;
 }
 
-.award-part-container{
-  transform: scale(1.1);
+/* ------------------- */
+.Note{
+  background-color: #F5F5F5;
+  
 }
+.Note img{
+  position: absolute;
+  left: -26%;
+  top: 30%;
+}
+
+.Note h3{
+  font-size: 2.6rem;
+  margin: 26px 0 39px;
+  font-weight: 400;
+}
+
+.Note p{ font-size: 1.3rem;}
+/* ------------------- */
+.container-fluid .dktg{
+  width: 510px;
+  margin-bottom: 100px;
+}
+
+.container-fluid .row:nth-child(2) .de1-2{
+  width: 168px;
+  margin: 50px;
+} 
+
+.container-fluid .row .dkdt-container{
+  position: relative;
+  background-color: transparent;
+  padding-top: 100px;
+}
+
+.container-fluid .row .dkdt-container div:nth-child(1) {
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  padding: 10px;
+  z-index: 0;
+  width:460px;
+  margin: 0 auto;
+  height: 200px;
+  position: relative;
+}
+
+
+.container-fluid .row .dkdt-container div:nth-child(1) a{
+  margin: 0;
+  font-size: 2.2rem;
+  line-height: 1.5rem;
+  font-weight: 750;
+  color: #F7F7F7;
+}
+
+.container-fluid .row .dkdt-container .dkdt-1 .dkdt-2{
+  background-color: #fff;
+  padding: 5px; 
+  box-shadow: 0 0 10px 3px #e0e0e0;
+  z-index: 1;
+  width: 550px;
+  height: 178px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50px;
+  left: -40px;
+  padding: 20px;
+}
+
+.container-fluid .row .dkdt-container .dkdt-1 .dkdt-2 a{
+  color: #000000;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+  display: inline-block;
+}
+
+
+/* ---------------------------- */
+
+
+.container .infomation .infomation-content h1{
+  font-weight: 600;
+  font-size: 4rem;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.container .infomation .infomation-content p{
+  font-size: 1.8rem;
+}
+
+.container .infomation .infomation-content a{
+  background-color: var(--primary-color)!important;
+  color: #F7F7F7;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: none;
+  margin-top: 50px;
+}
+
+.container .infomation .infomation-img img{
+  width: 416px;
+}
+
+/* ----------------------- */
+
+.taitro h1, .taitro .row h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+  font-weight: 800;
+}
+
+.taitro img{
+  margin-bottom: 50px;
+}
+/* ------------------- */
+footer{
+  background-color: #000000;
+}
+.connect{
+  padding-left: 204px;
+  margin-top: 100px;
+}
+.connect img:nth-child(1){
+ margin-left: 120px;
+}
+
+footer .connect .connect-detail {
+  border: 3px solid #fff;
+  color: #fff!important;
+  border-radius: 8px;
+  padding: 10px 12px;
+  width: 480px;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+footer .connect .connect-detail p {
+  margin: 0;
+}
+
+footer .connect .connect-detail div{
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 992px){
+footer .connect #img-1 {
+      width: 500px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  footer .connect #img-1 {
+    width: 450px!important;
+    margin-left: 0;
+
+}
+  .container-img img{
+    width: 600px;
+  }
+  .connect{
+    margin: 50px auto;
+    
+  }
+}
+
